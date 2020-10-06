@@ -29,7 +29,7 @@ class _BottomSheetNewState extends State<BottomSheetNew> {
       builder: (context, controller) {
         return Container(
           decoration: BoxDecoration(
-              color: Colors.blue[300],
+              color:Color(0xFFf6f7d4),
               borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(40), topRight: Radius.circular(40))),
           child: ListView.builder(
@@ -41,9 +41,10 @@ class _BottomSheetNewState extends State<BottomSheetNew> {
               return ListTile(
                 title: Text(
                   newdata[index].condition,
-                  style: GoogleFonts.openSansCondensed(
+                  style: GoogleFonts.robotoSlab(
                     fontSize: 25,
-                    color: Colors.white,
+                    fontStyle:  FontStyle.italic,
+                    color: Colors.black54,
                   ),
                 ),
                 trailing: Image(

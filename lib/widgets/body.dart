@@ -115,8 +115,7 @@ class _MyweatherScreenState extends State<MyweatherScreen> {
             height: double.infinity,
             //color: Colors.amber,
             decoration: BoxDecoration(
-              image: DecorationImage(
-                  image: AssetImage('images/n.jpg'), fit: BoxFit.fill),
+              color: Color(0xFF28df99),
             ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
