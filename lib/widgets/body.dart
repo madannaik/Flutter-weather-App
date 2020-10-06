@@ -145,7 +145,7 @@ class _MyweatherScreenState extends State<MyweatherScreen> {
                   'Today',
                   style: GoogleFonts.openSansCondensed(
                     fontSize: 25,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
                 SizedBox(
@@ -232,6 +232,7 @@ class _MyweatherScreenState extends State<MyweatherScreen> {
     return Column(
       children: [
         Icon(iconsData),
+        SizedBox(height: 10,),
         Text(
           details,
           style: GoogleFonts.openSansCondensed(
@@ -239,6 +240,7 @@ class _MyweatherScreenState extends State<MyweatherScreen> {
             color: Colors.white,
           ),
         ),
+
         Text(
           contraints,
           style: GoogleFonts.openSansCondensed(
