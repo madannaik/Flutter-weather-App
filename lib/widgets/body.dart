@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
         }
 
         return snapshot.hasData
-            ? MyweatherScreen(weatherData: snapshot.data)
+            ? MyWeatherScreen(weatherData: snapshot.data)
             : Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -57,14 +57,14 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-class MyweatherScreen extends StatefulWidget {
+class MyWeatherScreen extends StatefulWidget {
   final weatherData;
-  MyweatherScreen({this.weatherData});
+  MyWeatherScreen({this.weatherData});
   @override
-  _MyweatherScreenState createState() => _MyweatherScreenState();
+  _MyWeatherScreenState createState() => _MyWeatherScreenState();
 }
 
-class _MyweatherScreenState extends State<MyweatherScreen> {
+class _MyWeatherScreenState extends State<MyWeatherScreen> {
   String place;
   String condition;
   double temperture;
