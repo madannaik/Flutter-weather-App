@@ -17,6 +17,7 @@ ScreenShots
       <td><img src="https://github.com/madannaik/Flutter-weather-App/raw/main/Extra%20files/photo6107009609182063167.jpg" alt="App SS" width="250" height="550" /></td>
     </tr>
   </table>
+  
 ---
 
  
