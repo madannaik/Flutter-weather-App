@@ -29,7 +29,7 @@ class _BottomSheetNewState extends State<BottomSheetNew> {
       builder: (context, controller) {
         return Container(
           decoration: BoxDecoration(
-              color:Color(0xFFf6f7d4),
+              color: Color(0xFFf6f7d4),
               borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(40), topRight: Radius.circular(40))),
           child: ListView.builder(
@@ -42,8 +42,8 @@ class _BottomSheetNewState extends State<BottomSheetNew> {
                 title: Text(
                   newdata[index].condition,
                   style: GoogleFonts.robotoSlab(
-                    fontSize: 25,
-                    fontStyle:  FontStyle.italic,
+                    fontSize: 20,
+                    fontStyle: FontStyle.italic,
                     color: Colors.black54,
                   ),
                 ),

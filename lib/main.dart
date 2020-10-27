@@ -1,4 +1,6 @@
+import 'package:animated_splash/animated_splash.dart';
 import 'package:flutter/material.dart';
+
 import 'widgets/body.dart';
 
 void main() {
@@ -11,7 +13,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(canvasColor: Colors.transparent),
-      home: MyHomePage(),
+      home: AnimatedSplash(
+        imagePath: 'images/icons.jpg',
+        home: MyHomePage(),
+        duration: 3000,
+        type: AnimatedSplashType.StaticDuration,
+      ),
       debugShowCheckedModeBanner: false,
     );
   }
