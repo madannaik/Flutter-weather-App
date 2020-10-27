@@ -7,7 +7,7 @@
 ---
 ScreenShots
 ---
-![](Extra%20files/photo6107009609182063165.jpg =360px)
+![](Extra%20files/photo6107009609182063165.jpg =360*666)
  
 
  
