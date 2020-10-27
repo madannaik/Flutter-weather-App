@@ -1,7 +1,16 @@
-# weather_app
+# Weather App
+---
 
-**A new Flutter project.
-This is a Simple Flutter Weather app which  will give you Weather condition of your current Location **
+**A New Flutter Project.**
+**This is a Simple Flutter Weather app which  will give you Weather condition of your current Location**
+
+---
+ScreenShots
+---
+![](Extra%20files/photo6107009609182063165.jpg)
+
+
+
 
 
 For help getting started with Flutter, view
