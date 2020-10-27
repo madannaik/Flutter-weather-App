@@ -2,12 +2,15 @@
 ---
 
 **A New Flutter Project.**
-**This is a Simple Flutter Weather app which  will give you Weather condition of your current Location**
+**This is a Simple Flutter Weather app which  will give you Weather condition of your current Location and any desired location**
 
 ---
 ScreenShots
 ---
-![](Extra%20files/photo6107009609182063165.jpg)
+![](Extra%20files/photo6107009609182063165.jpg =360px)
+ 
+
+ 
 
 
 
