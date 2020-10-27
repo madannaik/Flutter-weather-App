@@ -1,4 +1,5 @@
 import 'dart:async' show Future;
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -230,7 +231,7 @@ class _MyWeatherScreenState extends State<MyWeatherScreen> {
                   ],
                 ),
                 SizedBox(
-                  height: height * 0.12,
+                  height: height * 0.14,
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
