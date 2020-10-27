@@ -4,6 +4,7 @@
 **A New Flutter Project.**<br>
 **This is a Simple Flutter Weather app which  will give you Weather condition of your current Location and any desired location**
 
+*Click here [Download](https://github.com/madannaik/Flutter-weather-App/raw/main/Extra%20files/app-release.apk) App*
 ---
 ScreenShots
 ---
