@@ -1,4 +1,12 @@
-# Weather App
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: aquamarine;">
+    # Weather App
 ---
 
 **A New Flutter Project.**<br>
@@ -31,3 +39,6 @@ ScreenShots
 For help getting started with Flutter, view
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+</body>
+</html>
